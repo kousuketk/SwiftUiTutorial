@@ -33,6 +33,7 @@
 		FF77E043283FC1EF00ADF951 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF77E035283FC1EF00ADF951 /* chilkoottrail.jpg */; };
 		FF77E044283FC1EF00ADF951 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF77E036283FC1EF00ADF951 /* rainbowlake.jpg */; };
 		FF77E04C283FC2DA00ADF951 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77E04B283FC2DA00ADF951 /* CircleImage.swift */; };
+		FF77E04E283FC7A300ADF951 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77E04D283FC7A300ADF951 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		FF77E035283FC1EF00ADF951 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		FF77E036283FC1EF00ADF951 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		FF77E04B283FC2DA00ADF951 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FF77E04D283FC7A300ADF951 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				FF77E028283FC1EF00ADF951 /* Resources */,
 				FF77DFE6283FB37300ADF951 /* SwiftUiTutorialApp.swift */,
 				FF77E04B283FC2DA00ADF951 /* CircleImage.swift */,
+				FF77E04D283FC7A300ADF951 /* MapView.swift */,
 				FF77DFE8283FB37300ADF951 /* ContentView.swift */,
 				FF77E01E283FC1C200ADF951 /* SwiftUiTutorial */,
 				FF77DFEA283FB37700ADF951 /* Assets.xcassets */,
@@ -356,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF77DFE9283FB37300ADF951 /* ContentView.swift in Sources */,
+				FF77E04E283FC7A300ADF951 /* MapView.swift in Sources */,
 				FF77E026283FC1C200ADF951 /* SwiftUiTutorialApp.swift in Sources */,
 				FF77E027283FC1C200ADF951 /* ContentView.swift in Sources */,
 				FF77DFE7283FB37300ADF951 /* SwiftUiTutorialApp.swift in Sources */,
