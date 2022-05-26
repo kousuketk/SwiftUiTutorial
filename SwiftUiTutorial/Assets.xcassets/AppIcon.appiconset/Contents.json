@@ -72,6 +72,11 @@
     },
     {
       "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
@@ -84,6 +89,13 @@
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
+    },
+    {
+      "filename" : "turtlerock.jpg",
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024",
+      "unassigned" : true
     }
   ],
   "info" : {
