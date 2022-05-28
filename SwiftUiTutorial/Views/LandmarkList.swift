@@ -1,10 +1,3 @@
-//
-//  LandmarkList.swift
-//  SwiftUiTutorial
-//
-//  Created by Takahashi on 2022/05/28.
-//
-
 import SwiftUI
 
 struct LandmarkList: View {
@@ -18,13 +11,18 @@ struct LandmarkList: View {
 
     var body: some View {
         NavigationView {
-            List(filteredLandmarks) {
-                landmark in NavigationLink {
-                    LandmarkDetail(landmark: landmark)
-                } label: {
-                    LandmarkRow(landmark: landmark)
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
                 }
-            }.navigationTitle("Landmarks")
+                ForEach(filteredLandmarks) {
+                    landmark in NavigationLink {
+                        LandmarkDetail(landmark: landmark)
+                    } label: {
+                        LandmarkRow(landmark: landmark)
+                    }
+                }.navigationTitle("Landmarks")
+            }
         }
     }
 }
