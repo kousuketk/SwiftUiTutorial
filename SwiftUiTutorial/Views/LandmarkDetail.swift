@@ -1,14 +1,12 @@
-//
-//  LandmarkDetail.swift
-//  SwiftUiTutorial
-//
-//  Created by Takahashi on 2022/05/28.
-//
-
 import SwiftUI
 
 struct LandmarkDetail: View {
+    @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
+    
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
     var body: some View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate).ignoresSafeArea(edges: .top).frame(height:300)
@@ -19,6 +17,7 @@ struct LandmarkDetail: View {
                     Text(landmark.park)
                     Spacer()
                     Text(landmark.state)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
                 .font(.subheadline).foregroundColor(.secondary)
                 Divider()
@@ -33,7 +32,9 @@ struct LandmarkDetail: View {
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
+    static let modelData = ModelData()
+
     static var previews: some View {
-        LandmarkDetail(landmark: ModelData().landmarks[0])
+        LandmarkDetail(landmark: ModelData().landmarks[0]).environmentObject(modelData)
     }
 }
