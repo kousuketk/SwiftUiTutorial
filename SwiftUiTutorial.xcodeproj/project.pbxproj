@@ -29,6 +29,7 @@
 		FF77E044283FC1EF00ADF951 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF77E036283FC1EF00ADF951 /* rainbowlake.jpg */; };
 		FF77E05F284214A600ADF951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77DFE8283FB37300ADF951 /* ContentView.swift */; };
 		FFD46181284226670039CFE7 /* landmarkData1.json in Resources */ = {isa = PBXBuildFile; fileRef = FFD46180284226670039CFE7 /* landmarkData1.json */; };
+		FFD46183284231DC0039CFE7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD46182284231DC0039CFE7 /* LandmarkList.swift */; };
 		FFF7410D284214FF005595BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77E04D283FC7A300ADF951 /* MapView.swift */; };
 		FFF7410E28421513005595BC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77E04B283FC2DA00ADF951 /* CircleImage.swift */; };
 		FFF7410F2842151D005595BC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77E051283FD0F500ADF951 /* ModelData.swift */; };
@@ -88,6 +89,7 @@
 		FF77E051283FD0F500ADF951 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		FF77E057283FD85100ADF951 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		FFD46180284226670039CFE7 /* landmarkData1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData1.json; path = "../../../Downloads/BuildingListsAndNavigation (1)/Complete/Landmarks/Resources/landmarkData1.json"; sourceTree = "<group>"; };
+		FFD46182284231DC0039CFE7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				FF77E04D283FC7A300ADF951 /* MapView.swift */,
 				FF77DFE8283FB37300ADF951 /* ContentView.swift */,
 				FF77E04B283FC2DA00ADF951 /* CircleImage.swift */,
+				FFD46182284231DC0039CFE7 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				FFF7411228421551005595BC /* SwiftUiTutorialApp.swift in Sources */,
 				FFF7411128421521005595BC /* LandmarkRow.swift in Sources */,
 				FFF7410F2842151D005595BC /* ModelData.swift in Sources */,
+				FFD46183284231DC0039CFE7 /* LandmarkList.swift in Sources */,
 				FFF741102842151D005595BC /* Landmark.swift in Sources */,
 				FFF7410E28421513005595BC /* CircleImage.swift in Sources */,
 				FFF7410D284214FF005595BC /* MapView.swift in Sources */,
